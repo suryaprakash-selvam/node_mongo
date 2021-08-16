@@ -13,8 +13,7 @@ router.get('/', async(req,res)=>{
         res.send('error' , err)
     }
 })
-git config --global user.email "selvamssp206@gmail.com"
-git config --global user.name "surya"
+
 
 router.post('/',async(req,res) =>{
   const addfeild=new feild(
